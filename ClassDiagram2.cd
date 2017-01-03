@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="has">
+    <Position X="3.505" Y="0.963" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="has">
+    <Position X="3.082" Y="3.042" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="has">
+    <Position X="9.75" Y="1.643" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="has">
+    <Position X="8.879" Y="2.954" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="has">
+    <Position X="7.601" Y="4.409" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="has">
+    <Position X="6.708" Y="4.64" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="uses">
+    <Position X="9.265" Y="5.147" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="uses">
+    <Position X="12.759" Y="2.657" Height="0.291" Width="0.92" />
+  </Comment>
+  <Comment CommentText="uses">
+    <Position X="12.715" Y="3.924" Height="0.291" Width="0.92" />
+  </Comment>
+  <Comment CommentText="has">
+    <Position X="1.517" Y="4.497" Height="0.291" Width="0.898" />
+  </Comment>
+  <Comment CommentText="has">
+    <Position X="4.438" Y="6.194" Height="0.291" Width="0.7" />
+  </Comment>
+  <Class Name="FormsProject.Billing" Collapsed="true">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAoQAAAAABACggAAVNAAABAAAAAhMAAAAAgAAAAA=</HashCode>
+      <FileName>Billing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsProject.bookForm" Collapsed="true">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YCACgAiAIjACAREAAQCAQEQCACQQIgAQBBECASAgQCk=</HashCode>
+      <FileName>BookForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsProject.Booking" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEkAAAAAkCAEIAEQQCABAABAAAAAAkAAAAAAAE=</HashCode>
+      <FileName>Booking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsProject.CalcForm" Collapsed="true">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAOACAAAHBIAAAIABCAAAACAAASCAAAAAAAKYAARQg=</HashCode>
+      <FileName>CalcForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsProject.Guest" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMAAAABAAACIAAAAgAAAAAIAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Guest.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Country" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FormsProject.MainForm" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAABAAQAITEAABBBAQCACAAiACS4BBAgCHAACQJAIAI=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CalcForm" />
+      <Property Name="bookForm" />
+      <Property Name="Registry" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FormsProject.Registry" Collapsed="true">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAQBABAgAkAQAAAAAAAAICAgAIgAhAgACABABAAAAAA=</HashCode>
+      <FileName>Registry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="FormsProject.RoomType" Collapsed="true">
+    <Position X="13" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAACAAAACAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>RoomType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FormsProject.Country" Collapsed="true">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iv9xbfbzI1rWmtgC3YUk9lZ6Chh6NfxGM3O0rBUA1b0=</HashCode>
+      <FileName>Country.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
